@@ -6,7 +6,7 @@
 
 nav {
     display: flex;
-    /* background-color: antiquewhite; */
+   
     justify-content: space-between;
 
 }
@@ -16,6 +16,8 @@ header {
    padding-top: 16px;
    font-size: 16px;
    font-weight: 500;
+   margin-bottom: 24px;
+   /* background-color: aliceblue; */
    
    
 }
@@ -57,4 +59,237 @@ header nav ul li a {
       font-weight: 550;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
        margin-top: 10px;
+       cursor: pointer;
 }
+
+
+
+.container {
+    
+   background-image: url(./assets/hero-bg.png);
+    height: 674px;
+    width: 1600px;
+    max-width: 1600px;
+
+}
+
+.early {
+    color: #469165;
+    display: flex;
+    gap: 6px;
+     width: 229px;
+     height: 35px; 
+     border-radius: 8px;
+     padding: 12px 12px;
+     align-items: center;  
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    
+
+   
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.data span {
+    color: #30B868;
+}
+
+.data h1 {
+    color: #FFFFFF;
+}
+
+.data {
+   
+      font-size: 35px;
+      text-transform: capitalize;
+
+}
+
+.data p {
+
+     font-size: 18px;
+     color: #FFFFFF;
+     margin-top: 16px;
+     width: 1360px;
+     max-width: 1600px;
+     line-height: 24px;
+     margin-bottom: 36px;
+
+
+    
+}
+
+.action-button {
+   
+display: flex;
+
+
+  
+gap: 10px;
+
+
+}
+
+#btn1 {
+    padding: 12px 16px;
+        background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+
+}
+
+#btn2 {
+
+    padding: 12px 16px;
+   background: none;
+   color: #FFFFFF;
+   border: 1px solid white;
+       border-radius: 4px;
+       display:flex;
+       align-items: center;
+       gap: 6px;
+       cursor: pointer;
+       
+       
+}
+
+#btn1 img {
+   
+     align-content: center;
+}
+
+#btn2 img {
+        height: 20px;
+}
+
+.btn:hover {
+    background-color: chartreuse;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#btn1:hover {
+      background-color: grey;
+    color: white;
+    border: 1px solid black;
+    
+}
+
+#btn2:hover {
+      background-color: grey;
+    color: white;
+    border: 1px solid black;
+    
+}
+
+header nav ul li a:hover{
+    background-color: #30B868;
+    color: white;
+}
+
+
+.container-two {
+    height: 600px;
+    width: 1600px;
+    max-width: 1600px;
+    /* background-color: aqua; */
+}
+
+.tittle {
+    /* background-color: #30B868; */
+    text-align: center;
+   padding-top: 36px;
+   padding-bottom: 44px;
+}
+
+#notes {
+    font-size: 48px;
+    
+    
+}
+
+#para {
+    font-size: 16px;
+    color: #627382;
+    margin-top: 15px;
+    
+
+}
+ .info-card {
+    
+    background-color: #FFFFFF;
+     width: 322px;
+    height: 300px;
+   
+ text-align: center;
+ padding-top: 90px;
+ border-radius: 8px;
+ /* border: 1px solid black; */
+ box-shadow: 3px 3px 20px grey;
+
+ 
+
+ }
+
+ .info-card p {
+    color: #627382;
+    padding-bottom: px;
+   
+ }
+
+  .info-card img {
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50%;
+     margin-bottom: 16px;
+
+  }
+
+   .info-card h4 {
+    margin-bottom: 16px;
+   }
+
+   #para-two {
+    margin-bottom: 20px;
+   }
+
+   #box2 {
+    display: flex;
+
+   }
+
+   .cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+   }
+
+   .info-card:hover {
+
+    background-color: #FCF8F8;
+    padding: ;
+
+
+   }
+
+
+
+
+
