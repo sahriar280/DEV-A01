@@ -208,7 +208,7 @@ header nav ul li a:hover{
     height: 600px;
     width: 1600px;
     max-width: 1600px;
-    /* background-color: aqua; */
+   
 }
 
 .tittle {
@@ -289,7 +289,51 @@ header nav ul li a:hover{
 
    }
 
+   .main-container {
+      
+       max-width: 1600px;
+       height: 840px;
+       display: flex;
+       margin-left: 120px;
+       margin-right: 120px;  
+       gap: 40px;
+       align-items: center;     
+
+   }
 
 
+     #know-img {
+            width: 600px;
+            height: 600px;
+          
+     }
 
+  .your-sec {
+     
+     font-size: 48px;
+   
+
+  }
+
+  .solution {
+    font-size: 16px;
+    color: #30B868;
+  }
+
+ 
+  .all-list ul li {
+    
+    list-style: none;
+
+  }
+
+.personal {
+    color:#627382;
+}
+
+.all-list ul li {
+
+    display: flex;
+    gap: 6px;
+}
 
